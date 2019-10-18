@@ -3,10 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B05A2549AB5308DC8AD61CF /* Pods_Takecare2uV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45DFD88548326C805F8C91C /* Pods_Takecare2uV1.framework */; };
+		5328C725CB25F14AF53C4380 /* Pods_Takecare2uV1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E631041CA021138F2608FE /* Pods_Takecare2uV1Tests.framework */; };
+		CF8A1BF726D66C3C07F47FC2 /* Pods_Takecare2uV1_Takecare2uV1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1B1EF14DB602C1227693E /* Pods_Takecare2uV1_Takecare2uV1UITests.framework */; };
+		E21B4C3F2341B246006F7C06 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4C3E2341B246006F7C06 /* Constant.swift */; };
+		E21B4C412341D9FA006F7C06 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4C402341D9FA006F7C06 /* RegisterViewController.swift */; };
+		E247EDBF234DC02A00B9FA8C /* LeftMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247EDBE234DC02A00B9FA8C /* LeftMenuController.swift */; };
+		E247EDC7234F854800B9FA8C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247EDC6234F854800B9FA8C /* FirstViewController.swift */; };
+		E24C9C2D2343154E002E06B2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C9C2C2343154D002E06B2 /* Constant.swift */; };
+		E24C9C2F23431632002E06B2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C9C2E23431632002E06B2 /* MainViewController.swift */; };
+		E24C9C31234359D0002E06B2 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E24C9C30234359D0002E06B2 /* logo2.png */; };
+		E24C9C332344765E002E06B2 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C9C322344765E002E06B2 /* ForgotPassword.swift */; };
+		E26B1B792344B49600FCC9DF /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E26B1B782344B49600FCC9DF /* credentials.plist */; };
+		E2AC82EE23505389003095B9 /* alertChoosePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC82ED23505389003095B9 /* alertChoosePhoto.swift */; };
+		E2AC82F0235053FE003095B9 /* addGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC82EF235053FE003095B9 /* addGroup.swift */; };
+		E2AC836C23520075003095B9 /* GPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC836B23520075003095B9 /* GPS.swift */; };
+		E2AC836E2352DD83003095B9 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC836D2352DD83003095B9 /* Logout.swift */; };
+		E2AC83702354673F003095B9 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC836F2354673E003095B9 /* UserController.swift */; };
 		E2DDA18423419C0F0087E682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA18323419C0F0087E682 /* AppDelegate.swift */; };
 		E2DDA18623419C0F0087E682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA18523419C0F0087E682 /* SceneDelegate.swift */; };
 		E2DDA18823419C0F0087E682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA18723419C0F0087E682 /* ViewController.swift */; };
@@ -15,6 +32,10 @@
 		E2DDA19023419C130087E682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DDA18E23419C130087E682 /* LaunchScreen.storyboard */; };
 		E2DDA19B23419C130087E682 /* Takecare2uV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA19A23419C130087E682 /* Takecare2uV1Tests.swift */; };
 		E2DDA1A623419C130087E682 /* Takecare2uV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA1A523419C130087E682 /* Takecare2uV1UITests.swift */; };
+		E2DDA1B623419E4C0087E682 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA1B523419E4C0087E682 /* GradientView.swift */; };
+		E2F7D0C62358530200C300C1 /* ReachabilityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D0C52358530200C300C1 /* ReachabilityTest.swift */; };
+		E2F7D0D0235870B600C300C1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D0CF235870B600C300C1 /* TableViewCell.swift */; };
+		E2F7D0D2235987F300C300C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2F7D0D1235987F200C300C1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25F4209DAC9AA7D85A2F979E /* Pods-Takecare2uV1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1.debug.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1.debug.xcconfig"; sourceTree = "<group>"; };
+		41E631041CA021138F2608FE /* Pods_Takecare2uV1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Takecare2uV1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA7F0D875C162E9E6BD81E8 /* Pods-Takecare2uV1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1Tests.release.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1Tests/Pods-Takecare2uV1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		897392399DA68BDD78633677 /* Pods-Takecare2uV1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1Tests/Pods-Takecare2uV1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F1B1EF14DB602C1227693E /* Pods_Takecare2uV1_Takecare2uV1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Takecare2uV1_Takecare2uV1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC628237C1AF15FD5D390B7F /* Pods-Takecare2uV1-Takecare2uV1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1-Takecare2uV1UITests.debug.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E21B4C3E2341B246006F7C06 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E21B4C402341D9FA006F7C06 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E247EDBE234DC02A00B9FA8C /* LeftMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuController.swift; sourceTree = "<group>"; };
+		E247EDC6234F854800B9FA8C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E24C9C2C2343154D002E06B2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E24C9C2E23431632002E06B2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E24C9C30234359D0002E06B2 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		E24C9C322344765E002E06B2 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		E26B1B782344B49600FCC9DF /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		E2AC82ED23505389003095B9 /* alertChoosePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertChoosePhoto.swift; sourceTree = "<group>"; };
+		E2AC82EF235053FE003095B9 /* addGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addGroup.swift; sourceTree = "<group>"; };
+		E2AC836B23520075003095B9 /* GPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS.swift; sourceTree = "<group>"; };
+		E2AC836D2352DD83003095B9 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		E2AC836F2354673E003095B9 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		E2DDA18023419C0F0087E682 /* Takecare2uV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Takecare2uV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DDA18323419C0F0087E682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2DDA18523419C0F0087E682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +90,14 @@
 		E2DDA1A123419C130087E682 /* Takecare2uV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Takecare2uV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DDA1A523419C130087E682 /* Takecare2uV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Takecare2uV1UITests.swift; sourceTree = "<group>"; };
 		E2DDA1A723419C130087E682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DDA1B523419E4C0087E682 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E2F7D0C4235722E200C300C1 /* Takecare2uV1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Takecare2uV1.entitlements; sourceTree = "<group>"; };
+		E2F7D0C52358530200C300C1 /* ReachabilityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityTest.swift; sourceTree = "<group>"; };
+		E2F7D0CF235870B600C300C1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E2F7D0D1235987F200C300C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5D3B07E9ACC5B673E32EEFE /* Pods-Takecare2uV1-Takecare2uV1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1-Takecare2uV1UITests.release.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F34372FF29CE056F35BF6ADF /* Pods-Takecare2uV1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1.release.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1.release.xcconfig"; sourceTree = "<group>"; };
+		F45DFD88548326C805F8C91C /* Pods_Takecare2uV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Takecare2uV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B05A2549AB5308DC8AD61CF /* Pods_Takecare2uV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5328C725CB25F14AF53C4380 /* Pods_Takecare2uV1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +121,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8A1BF726D66C3C07F47FC2 /* Pods_Takecare2uV1_Takecare2uV1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		625E6A8F64766C58AEC57503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25F4209DAC9AA7D85A2F979E /* Pods-Takecare2uV1.debug.xcconfig */,
+				F34372FF29CE056F35BF6ADF /* Pods-Takecare2uV1.release.xcconfig */,
+				DC628237C1AF15FD5D390B7F /* Pods-Takecare2uV1-Takecare2uV1UITests.debug.xcconfig */,
+				E5D3B07E9ACC5B673E32EEFE /* Pods-Takecare2uV1-Takecare2uV1UITests.release.xcconfig */,
+				897392399DA68BDD78633677 /* Pods-Takecare2uV1Tests.debug.xcconfig */,
+				5DA7F0D875C162E9E6BD81E8 /* Pods-Takecare2uV1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E2DDA17723419C0F0087E682 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +148,8 @@
 				E2DDA19923419C130087E682 /* Takecare2uV1Tests */,
 				E2DDA1A423419C130087E682 /* Takecare2uV1UITests */,
 				E2DDA18123419C0F0087E682 /* Products */,
+				625E6A8F64766C58AEC57503 /* Pods */,
+				FF81388F5B9961C7E61CC430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +166,32 @@
 		E2DDA18223419C0F0087E682 /* Takecare2uV1 */ = {
 			isa = PBXGroup;
 			children = (
+				E2F7D0C4235722E200C300C1 /* Takecare2uV1.entitlements */,
+				E21B4C3E2341B246006F7C06 /* Constant.swift */,
 				E2DDA18323419C0F0087E682 /* AppDelegate.swift */,
 				E2DDA18523419C0F0087E682 /* SceneDelegate.swift */,
+				E2F7D0CF235870B600C300C1 /* TableViewCell.swift */,
 				E2DDA18723419C0F0087E682 /* ViewController.swift */,
 				E2DDA18923419C0F0087E682 /* Main.storyboard */,
+				E2AC836D2352DD83003095B9 /* Logout.swift */,
+				E2AC836B23520075003095B9 /* GPS.swift */,
+				E2AC82EF235053FE003095B9 /* addGroup.swift */,
+				E24C9C322344765E002E06B2 /* ForgotPassword.swift */,
+				E24C9C2E23431632002E06B2 /* MainViewController.swift */,
+				E2AC836F2354673E003095B9 /* UserController.swift */,
+				E247EDC6234F854800B9FA8C /* FirstViewController.swift */,
+				E2F7D0C52358530200C300C1 /* ReachabilityTest.swift */,
+				E21B4C402341D9FA006F7C06 /* RegisterViewController.swift */,
+				E2DDA1B523419E4C0087E682 /* GradientView.swift */,
+				E2AC82ED23505389003095B9 /* alertChoosePhoto.swift */,
+				E26B1B782344B49600FCC9DF /* credentials.plist */,
+				E24C9C30234359D0002E06B2 /* logo2.png */,
 				E2DDA18C23419C130087E682 /* Assets.xcassets */,
 				E2DDA18E23419C130087E682 /* LaunchScreen.storyboard */,
+				E24C9C2C2343154D002E06B2 /* Constant.swift */,
 				E2DDA19123419C130087E682 /* Info.plist */,
+				E2F7D0D1235987F200C300C1 /* GoogleService-Info.plist */,
+				E247EDBE234DC02A00B9FA8C /* LeftMenuController.swift */,
 			);
 			path = Takecare2uV1;
 			sourceTree = "<group>";
@@ -128,6 +214,16 @@
 			path = Takecare2uV1UITests;
 			sourceTree = "<group>";
 		};
+		FF81388F5B9961C7E61CC430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F45DFD88548326C805F8C91C /* Pods_Takecare2uV1.framework */,
+				A5F1B1EF14DB602C1227693E /* Pods_Takecare2uV1_Takecare2uV1UITests.framework */,
+				41E631041CA021138F2608FE /* Pods_Takecare2uV1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2DDA1AA23419C130087E682 /* Build configuration list for PBXNativeTarget "Takecare2uV1" */;
 			buildPhases = (
+				60A3B6EC7D181E58FDCAF0A0 /* [CP] Check Pods Manifest.lock */,
 				E2DDA17C23419C0F0087E682 /* Sources */,
 				E2DDA17D23419C0F0087E682 /* Frameworks */,
 				E2DDA17E23419C0F0087E682 /* Resources */,
+				DB3C320EAC647141EED49E57 /* [CP] Embed Pods Frameworks */,
+				114D19B526BC5A9896DA4B3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2DDA1AD23419C130087E682 /* Build configuration list for PBXNativeTarget "Takecare2uV1Tests" */;
 			buildPhases = (
+				F6B051202596039B1BE0EDD3 /* [CP] Check Pods Manifest.lock */,
 				E2DDA19223419C130087E682 /* Sources */,
 				E2DDA19323419C130087E682 /* Frameworks */,
 				E2DDA19423419C130087E682 /* Resources */,
@@ -170,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2DDA1B023419C130087E682 /* Build configuration list for PBXNativeTarget "Takecare2uV1UITests" */;
 			buildPhases = (
+				254C7514C79B711324C00CD4 /* [CP] Check Pods Manifest.lock */,
 				E2DDA19D23419C130087E682 /* Sources */,
 				E2DDA19E23419C130087E682 /* Frameworks */,
 				E2DDA19F23419C130087E682 /* Resources */,
+				D03F044F346EF0E6107A805E /* [CP] Embed Pods Frameworks */,
+				26789D59A5C2B90C0ABB3A8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +335,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24C9C31234359D0002E06B2 /* logo2.png in Resources */,
 				E2DDA19023419C130087E682 /* LaunchScreen.storyboard in Resources */,
 				E2DDA18D23419C130087E682 /* Assets.xcassets in Resources */,
 				E2DDA18B23419C0F0087E682 /* Main.storyboard in Resources */,
+				E26B1B792344B49600FCC9DF /* credentials.plist in Resources */,
+				E2F7D0D2235987F300C300C1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +360,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		114D19B526BC5A9896DA4B3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		254C7514C79B711324C00CD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Takecare2uV1-Takecare2uV1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26789D59A5C2B90C0ABB3A8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A3B6EC7D181E58FDCAF0A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Takecare2uV1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D03F044F346EF0E6107A805E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3C320EAC647141EED49E57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B051202596039B1BE0EDD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Takecare2uV1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2DDA17C23419C0F0087E682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AC82EE23505389003095B9 /* alertChoosePhoto.swift in Sources */,
 				E2DDA18823419C0F0087E682 /* ViewController.swift in Sources */,
+				E2AC83702354673F003095B9 /* UserController.swift in Sources */,
+				E2F7D0D0235870B600C300C1 /* TableViewCell.swift in Sources */,
 				E2DDA18423419C0F0087E682 /* AppDelegate.swift in Sources */,
+				E21B4C3F2341B246006F7C06 /* Constant.swift in Sources */,
+				E2AC82F0235053FE003095B9 /* addGroup.swift in Sources */,
+				E247EDBF234DC02A00B9FA8C /* LeftMenuController.swift in Sources */,
+				E2AC836C23520075003095B9 /* GPS.swift in Sources */,
+				E24C9C2D2343154E002E06B2 /* Constant.swift in Sources */,
+				E21B4C412341D9FA006F7C06 /* RegisterViewController.swift in Sources */,
+				E24C9C2F23431632002E06B2 /* MainViewController.swift in Sources */,
+				E2DDA1B623419E4C0087E682 /* GradientView.swift in Sources */,
 				E2DDA18623419C0F0087E682 /* SceneDelegate.swift in Sources */,
+				E24C9C332344765E002E06B2 /* ForgotPassword.swift in Sources */,
+				E2AC836E2352DD83003095B9 /* Logout.swift in Sources */,
+				E2F7D0C62358530200C300C1 /* ReachabilityTest.swift in Sources */,
+				E247EDC7234F854800B9FA8C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +690,10 @@
 		};
 		E2DDA1AB23419C130087E682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F4209DAC9AA7D85A2F979E /* Pods-Takecare2uV1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Takecare2uV1/Takecare2uV1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6UQ86K5MDV;
 				INFOPLIST_FILE = Takecare2uV1/Info.plist;
@@ -450,8 +710,10 @@
 		};
 		E2DDA1AC23419C130087E682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34372FF29CE056F35BF6ADF /* Pods-Takecare2uV1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Takecare2uV1/Takecare2uV1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6UQ86K5MDV;
 				INFOPLIST_FILE = Takecare2uV1/Info.plist;
@@ -468,6 +730,7 @@
 		};
 		E2DDA1AE23419C130087E682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897392399DA68BDD78633677 /* Pods-Takecare2uV1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +753,7 @@
 		};
 		E2DDA1AF23419C130087E682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA7F0D875C162E9E6BD81E8 /* Pods-Takecare2uV1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +776,7 @@
 		};
 		E2DDA1B123419C130087E682 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC628237C1AF15FD5D390B7F /* Pods-Takecare2uV1-Takecare2uV1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +797,7 @@
 		};
 		E2DDA1B223419C130087E682 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D3B07E9ACC5B673E32EEFE /* Pods-Takecare2uV1-Takecare2uV1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_Takecare2uV1_Takecare2uV1UITests {
+  umbrella header "Pods-Takecare2uV1-Takecare2uV1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
