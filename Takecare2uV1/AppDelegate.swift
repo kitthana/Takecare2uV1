@@ -5,11 +5,13 @@
 //  Created by Sherlock Ohm on 30/9/2562 BE.
 //  Copyright © 2562 Sherlock Ohm. All rights reserved.
 //
+import Foundation
 import UIKit
 import FacebookCore
 import GoogleSignIn
 import SwiftyJSON
 import Firebase
+import Sinch
 
 
 @UIApplicationMain
@@ -40,14 +42,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate {
         }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
         GIDSignIn.sharedInstance()?.clientID = "559730773673-8rhotuo60rehu1vhcas9m6ndo2ikcnk8.apps.googleusercontent.com"
         GIDSignIn.sharedInstance().delegate = self
         ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
-        UIApplication.shared.setMinimumBackgroundFetchInterval(UIApplication.backgroundFetchIntervalMinimum)
-            FirebaseApp.configure()
-        
-        
-        
         return true
     }
     
@@ -63,6 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
+        
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
@@ -79,5 +78,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 }
+
+
 
 

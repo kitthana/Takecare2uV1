@@ -162,6 +162,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AMSlideMenu/AMSlideMenu.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
@@ -174,10 +175,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AMSlideMenu/AMSlideMenu.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
@@ -190,6 +193,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

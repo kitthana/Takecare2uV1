@@ -14,8 +14,11 @@ import FacebookCore
 import FBSDKLoginKit
 import GoogleSignIn
 import Firebase
+import FBSDKCoreKit
 
 class ViewController: UIViewController,LoginButtonDelegate{
+   
+    
     @IBOutlet weak var loginView: UIView!
     @IBOutlet weak var loginButton: UIButton!
     
@@ -107,6 +110,7 @@ class ViewController: UIViewController,LoginButtonDelegate{
             print(LoginManagerLoginResult?.self)
             let accessToken = AccessToken.current?.tokenString
             print("access token = \(accessToken.self)")
+            getFbId()
         }
     }
     func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
@@ -131,20 +135,27 @@ class ViewController: UIViewController,LoginButtonDelegate{
             return ""
         }
     }
-    func getUserProfile() {
-        let connection = GraphRequestConnection()
-        connection.add(<#T##request: GraphRequest##GraphRequest#>, batchEntryName: "\me", completionHandler: <#T##GraphRequestBlock##GraphRequestBlock##(GraphRequestConnection?, Any?, Error?) -> Void#>) {
-            reponse, result in
-            switch result {
-            case .success(let response):
-                print("Logged in user facebook id == \(response.dictionaryValue!["id"])")
-                print("Logged in user facebook name == \(response.dictionaryValue["name"])")
-                break
-            case .failed(let error):
-                print("We have error with profile == \(error.localizeDesciption)")
+    func getFbId(){
+        if(AccessToken.current != nil){
+            let connection = GraphRequestConnection()
+            connection.add(GraphRequest(graphPath: "/me", parameters: ["fields":"email"])) { httpResponse, result, error   in
+                if error != nil {
+                    NSLog(error.debugDescription)
+                    return
+                }
+
+                // Handle vars
+                if let result = result as? [String:String],
+                    let email: String = result["email"],
+                    let fbId: String = result["id"] {
+
+                    // internal usage of the email
+//                    self.userService.loginWithFacebookMail(facebookMail: email)
+                    print(email)
+                    print(fbId)
+                }
+
             }
         }
     }
-
-}
 }

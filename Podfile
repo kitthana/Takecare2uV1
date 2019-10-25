@@ -16,7 +16,15 @@ target 'Takecare2uV1' do
   pod "AMSlideMenu", "~> 1.5.3"
   pod 'TinyConstraints'
   pod 'DLRadioButton', '~> 1.4'
-
+  pod 'Firebase'
+  pod 'Firebase/InAppMessagingDisplay'
+  pod 'SinchRTC'
+  pod 'APESuperHUD', :git => 'https://github.com/apegroup/APESuperHUD.git'
+  pod 'Toast-Swift'
+  # add the Firebase pod for Google Analytics
+  pod 'Firebase/Analytics'
+  # add pods for any other desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
   target 'Takecare2uV1Tests' do
     inherit! :search_paths
     # Pods for testing

@@ -10,7 +10,7 @@
 		0B05A2549AB5308DC8AD61CF /* Pods_Takecare2uV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45DFD88548326C805F8C91C /* Pods_Takecare2uV1.framework */; };
 		5328C725CB25F14AF53C4380 /* Pods_Takecare2uV1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E631041CA021138F2608FE /* Pods_Takecare2uV1Tests.framework */; };
 		CF8A1BF726D66C3C07F47FC2 /* Pods_Takecare2uV1_Takecare2uV1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1B1EF14DB602C1227693E /* Pods_Takecare2uV1_Takecare2uV1UITests.framework */; };
-		E21B4C3F2341B246006F7C06 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4C3E2341B246006F7C06 /* Constant.swift */; };
+		E20B4E72235CAF210041632F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20B4E71235CAF210041632F /* GoogleService-Info.plist */; };
 		E21B4C412341D9FA006F7C06 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4C402341D9FA006F7C06 /* RegisterViewController.swift */; };
 		E247EDBF234DC02A00B9FA8C /* LeftMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247EDBE234DC02A00B9FA8C /* LeftMenuController.swift */; };
 		E247EDC7234F854800B9FA8C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E247EDC6234F854800B9FA8C /* FirstViewController.swift */; };
@@ -19,11 +19,18 @@
 		E24C9C31234359D0002E06B2 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E24C9C30234359D0002E06B2 /* logo2.png */; };
 		E24C9C332344765E002E06B2 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C9C322344765E002E06B2 /* ForgotPassword.swift */; };
 		E26B1B792344B49600FCC9DF /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E26B1B782344B49600FCC9DF /* credentials.plist */; };
+		E2A62C04235EBAD20034CB1E /* QRcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A62C03235EBAD20034CB1E /* QRcodeGenerator.swift */; };
+		E2A62C06235ED5690034CB1E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A62C05235ED5690034CB1E /* ScannerViewController.swift */; };
+		E2A62C08235EE7110034CB1E /* AddMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A62C07235EE7110034CB1E /* AddMemberViewController.swift */; };
+		E2A62C0A235EF8800034CB1E /* editGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A62C09235EF8800034CB1E /* editGroup.swift */; };
+		E2A62C0C235F03C20034CB1E /* deleteGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A62C0B235F03C20034CB1E /* deleteGroup.swift */; };
+		E2A62C0E235F0AF70034CB1E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A62C0D235F0AF70034CB1E /* Constant.swift */; };
 		E2AC82EE23505389003095B9 /* alertChoosePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC82ED23505389003095B9 /* alertChoosePhoto.swift */; };
 		E2AC82F0235053FE003095B9 /* addGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC82EF235053FE003095B9 /* addGroup.swift */; };
 		E2AC836C23520075003095B9 /* GPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC836B23520075003095B9 /* GPS.swift */; };
 		E2AC836E2352DD83003095B9 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC836D2352DD83003095B9 /* Logout.swift */; };
 		E2AC83702354673F003095B9 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AC836F2354673E003095B9 /* UserController.swift */; };
+		E2D67D272361468900E96398 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D67D262361468900E96398 /* Helper.swift */; };
 		E2DDA18423419C0F0087E682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA18323419C0F0087E682 /* AppDelegate.swift */; };
 		E2DDA18623419C0F0087E682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA18523419C0F0087E682 /* SceneDelegate.swift */; };
 		E2DDA18823419C0F0087E682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA18723419C0F0087E682 /* ViewController.swift */; };
@@ -35,7 +42,6 @@
 		E2DDA1B623419E4C0087E682 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDA1B523419E4C0087E682 /* GradientView.swift */; };
 		E2F7D0C62358530200C300C1 /* ReachabilityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D0C52358530200C300C1 /* ReachabilityTest.swift */; };
 		E2F7D0D0235870B600C300C1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D0CF235870B600C300C1 /* TableViewCell.swift */; };
-		E2F7D0D2235987F300C300C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2F7D0D1235987F200C300C1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +68,7 @@
 		897392399DA68BDD78633677 /* Pods-Takecare2uV1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1Tests/Pods-Takecare2uV1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5F1B1EF14DB602C1227693E /* Pods_Takecare2uV1_Takecare2uV1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Takecare2uV1_Takecare2uV1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC628237C1AF15FD5D390B7F /* Pods-Takecare2uV1-Takecare2uV1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1-Takecare2uV1UITests.debug.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E21B4C3E2341B246006F7C06 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E20B4E71235CAF210041632F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E21B4C402341D9FA006F7C06 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E247EDBE234DC02A00B9FA8C /* LeftMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuController.swift; sourceTree = "<group>"; };
 		E247EDC6234F854800B9FA8C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -71,11 +77,19 @@
 		E24C9C30234359D0002E06B2 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 		E24C9C322344765E002E06B2 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
 		E26B1B782344B49600FCC9DF /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		E2A62C03235EBAD20034CB1E /* QRcodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcodeGenerator.swift; sourceTree = "<group>"; };
+		E2A62C05235ED5690034CB1E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		E2A62C07235EE7110034CB1E /* AddMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemberViewController.swift; sourceTree = "<group>"; };
+		E2A62C09235EF8800034CB1E /* editGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editGroup.swift; sourceTree = "<group>"; };
+		E2A62C0B235F03C20034CB1E /* deleteGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteGroup.swift; sourceTree = "<group>"; };
+		E2A62C0D235F0AF70034CB1E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E2AC82ED23505389003095B9 /* alertChoosePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertChoosePhoto.swift; sourceTree = "<group>"; };
 		E2AC82EF235053FE003095B9 /* addGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addGroup.swift; sourceTree = "<group>"; };
 		E2AC836B23520075003095B9 /* GPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS.swift; sourceTree = "<group>"; };
 		E2AC836D2352DD83003095B9 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		E2AC836F2354673E003095B9 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		E2D67D262361468900E96398 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E2D67D28236162FC00E96398 /* Takecare2uV1Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Takecare2uV1Release.entitlements; sourceTree = "<group>"; };
 		E2DDA18023419C0F0087E682 /* Takecare2uV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Takecare2uV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DDA18323419C0F0087E682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2DDA18523419C0F0087E682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,7 +108,6 @@
 		E2F7D0C4235722E200C300C1 /* Takecare2uV1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Takecare2uV1.entitlements; sourceTree = "<group>"; };
 		E2F7D0C52358530200C300C1 /* ReachabilityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityTest.swift; sourceTree = "<group>"; };
 		E2F7D0CF235870B600C300C1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		E2F7D0D1235987F200C300C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E5D3B07E9ACC5B673E32EEFE /* Pods-Takecare2uV1-Takecare2uV1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1-Takecare2uV1UITests.release.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1-Takecare2uV1UITests/Pods-Takecare2uV1-Takecare2uV1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		F34372FF29CE056F35BF6ADF /* Pods-Takecare2uV1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Takecare2uV1.release.xcconfig"; path = "Target Support Files/Pods-Takecare2uV1/Pods-Takecare2uV1.release.xcconfig"; sourceTree = "<group>"; };
 		F45DFD88548326C805F8C91C /* Pods_Takecare2uV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Takecare2uV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,31 +179,38 @@
 		E2DDA18223419C0F0087E682 /* Takecare2uV1 */ = {
 			isa = PBXGroup;
 			children = (
+				E2D67D28236162FC00E96398 /* Takecare2uV1Release.entitlements */,
 				E2F7D0C4235722E200C300C1 /* Takecare2uV1.entitlements */,
-				E21B4C3E2341B246006F7C06 /* Constant.swift */,
 				E2DDA18323419C0F0087E682 /* AppDelegate.swift */,
 				E2DDA18523419C0F0087E682 /* SceneDelegate.swift */,
 				E2F7D0CF235870B600C300C1 /* TableViewCell.swift */,
 				E2DDA18723419C0F0087E682 /* ViewController.swift */,
 				E2DDA18923419C0F0087E682 /* Main.storyboard */,
+				E2A62C07235EE7110034CB1E /* AddMemberViewController.swift */,
+				E2A62C05235ED5690034CB1E /* ScannerViewController.swift */,
+				E2A62C03235EBAD20034CB1E /* QRcodeGenerator.swift */,
 				E2AC836D2352DD83003095B9 /* Logout.swift */,
 				E2AC836B23520075003095B9 /* GPS.swift */,
+				E2A62C09235EF8800034CB1E /* editGroup.swift */,
 				E2AC82EF235053FE003095B9 /* addGroup.swift */,
+				E2A62C0B235F03C20034CB1E /* deleteGroup.swift */,
 				E24C9C322344765E002E06B2 /* ForgotPassword.swift */,
 				E24C9C2E23431632002E06B2 /* MainViewController.swift */,
 				E2AC836F2354673E003095B9 /* UserController.swift */,
 				E247EDC6234F854800B9FA8C /* FirstViewController.swift */,
+				E2D67D262361468900E96398 /* Helper.swift */,
 				E2F7D0C52358530200C300C1 /* ReachabilityTest.swift */,
 				E21B4C402341D9FA006F7C06 /* RegisterViewController.swift */,
 				E2DDA1B523419E4C0087E682 /* GradientView.swift */,
+				E20B4E71235CAF210041632F /* GoogleService-Info.plist */,
 				E2AC82ED23505389003095B9 /* alertChoosePhoto.swift */,
 				E26B1B782344B49600FCC9DF /* credentials.plist */,
 				E24C9C30234359D0002E06B2 /* logo2.png */,
 				E2DDA18C23419C130087E682 /* Assets.xcassets */,
 				E2DDA18E23419C130087E682 /* LaunchScreen.storyboard */,
 				E24C9C2C2343154D002E06B2 /* Constant.swift */,
+				E2A62C0D235F0AF70034CB1E /* Constant.swift */,
 				E2DDA19123419C130087E682 /* Info.plist */,
-				E2F7D0D1235987F200C300C1 /* GoogleService-Info.plist */,
 				E247EDBE234DC02A00B9FA8C /* LeftMenuController.swift */,
 			);
 			path = Takecare2uV1;
@@ -340,7 +360,7 @@
 				E2DDA18D23419C130087E682 /* Assets.xcassets in Resources */,
 				E2DDA18B23419C0F0087E682 /* Main.storyboard in Resources */,
 				E26B1B792344B49600FCC9DF /* credentials.plist in Resources */,
-				E2F7D0D2235987F300C300C1 /* GoogleService-Info.plist in Resources */,
+				E20B4E72235CAF210041632F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,24 +522,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A62C08235EE7110034CB1E /* AddMemberViewController.swift in Sources */,
 				E2AC82EE23505389003095B9 /* alertChoosePhoto.swift in Sources */,
 				E2DDA18823419C0F0087E682 /* ViewController.swift in Sources */,
 				E2AC83702354673F003095B9 /* UserController.swift in Sources */,
+				E2A62C06235ED5690034CB1E /* ScannerViewController.swift in Sources */,
+				E2A62C0A235EF8800034CB1E /* editGroup.swift in Sources */,
 				E2F7D0D0235870B600C300C1 /* TableViewCell.swift in Sources */,
 				E2DDA18423419C0F0087E682 /* AppDelegate.swift in Sources */,
-				E21B4C3F2341B246006F7C06 /* Constant.swift in Sources */,
 				E2AC82F0235053FE003095B9 /* addGroup.swift in Sources */,
 				E247EDBF234DC02A00B9FA8C /* LeftMenuController.swift in Sources */,
+				E2A62C0E235F0AF70034CB1E /* Constant.swift in Sources */,
 				E2AC836C23520075003095B9 /* GPS.swift in Sources */,
 				E24C9C2D2343154E002E06B2 /* Constant.swift in Sources */,
+				E2A62C0C235F03C20034CB1E /* deleteGroup.swift in Sources */,
 				E21B4C412341D9FA006F7C06 /* RegisterViewController.swift in Sources */,
 				E24C9C2F23431632002E06B2 /* MainViewController.swift in Sources */,
 				E2DDA1B623419E4C0087E682 /* GradientView.swift in Sources */,
 				E2DDA18623419C0F0087E682 /* SceneDelegate.swift in Sources */,
+				E2A62C04235EBAD20034CB1E /* QRcodeGenerator.swift in Sources */,
 				E24C9C332344765E002E06B2 /* ForgotPassword.swift in Sources */,
 				E2AC836E2352DD83003095B9 /* Logout.swift in Sources */,
 				E2F7D0C62358530200C300C1 /* ReachabilityTest.swift in Sources */,
 				E247EDC7234F854800B9FA8C /* FirstViewController.swift in Sources */,
+				E2D67D272361468900E96398 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,16 +739,18 @@
 			baseConfigurationReference = F34372FF29CE056F35BF6ADF /* Pods-Takecare2uV1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Takecare2uV1/Takecare2uV1.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Takecare2uV1/Takecare2uV1Release.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6UQ86K5MDV;
+				DEVELOPMENT_TEAM = M7PA6FZ2TJ;
 				INFOPLIST_FILE = Takecare2uV1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = takecare2u.Takecare2uV1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saleafterservice.Takecare2U;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

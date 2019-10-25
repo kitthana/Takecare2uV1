@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.9.0)
   - AMSlideMenu (1.5.4)
+  - APESuperHUD (2.0.1)
   - AppAuth (1.2.0):
     - AppAuth/Core (= 1.2.0)
     - AppAuth/ExternalUserAgent (= 1.2.0)
@@ -20,11 +21,31 @@ PODS:
     - FBSDKLoginKit/Login (= 5.7.0)
   - FBSDKLoginKit/Login (5.7.0):
     - FBSDKCoreKit (~> 5.0)
+  - Firebase (6.9.0):
+    - Firebase/Core (= 6.9.0)
+  - Firebase/Analytics (6.9.0):
+    - Firebase/Core
   - Firebase/Auth (6.9.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 6.2.3)
+  - Firebase/Core (6.9.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.2)
   - Firebase/CoreOnly (6.9.0):
     - FirebaseCore (= 6.3.0)
+  - Firebase/InAppMessagingDisplay (6.9.0):
+    - Firebase/CoreOnly
+    - FirebaseInAppMessagingDisplay (~> 0.15.4)
+  - FirebaseAnalytics (6.1.2):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.4.0)
   - FirebaseAuth (6.2.3):
     - FirebaseAuthInterop (~> 1.0)
     - FirebaseCore (~> 6.2)
@@ -43,6 +64,24 @@ PODS:
     - GoogleUtilities/Environment (~> 6.2)
     - GoogleUtilities/Logger (~> 6.2)
   - FirebaseCoreDiagnosticsInterop (1.0.0)
+  - FirebaseInAppMessaging (0.15.5):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+  - FirebaseInAppMessagingDisplay (0.15.5):
+    - FirebaseCore (~> 6.2)
+    - FirebaseInAppMessaging (>= 0.15.0)
+  - FirebaseInstanceID (4.2.5):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - GoogleAppMeasurement (6.1.2):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
   - GoogleDataTransport (2.0.0)
   - GoogleDataTransportCCTSupport (1.1.0):
     - GoogleDataTransport (~> 2.0)
@@ -58,12 +97,16 @@ PODS:
   - GoogleUtilities/Environment (6.3.1)
   - GoogleUtilities/Logger (6.3.1):
     - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.3.1):
+    - GoogleUtilities/Logger
   - GoogleUtilities/Network (6.3.1):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
   - "GoogleUtilities/NSData+zlib (6.3.1)"
   - GoogleUtilities/Reachability (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.3.1):
     - GoogleUtilities/Logger
   - GTMAppAuth (1.0.0):
     - AppAuth/Core (~> 1.0)
@@ -78,20 +121,28 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - SinchRTC (3.12.9)
   - SwiftyJSON (5.0.0)
   - TinyConstraints (4.0.1)
+  - Toast-Swift (5.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - AMSlideMenu (~> 1.5.3)
+  - APESuperHUD (from `https://github.com/apegroup/APESuperHUD.git`)
   - CryptoSwift
   - DLRadioButton (~> 1.4)
   - FacebookCore
   - FBSDKLoginKit
+  - Firebase
+  - Firebase/Analytics
   - Firebase/Auth
+  - Firebase/InAppMessagingDisplay
   - GoogleSignIn
+  - SinchRTC
   - SwiftyJSON
   - TinyConstraints
+  - Toast-Swift
 
 SPEC REPOS:
   trunk:
@@ -104,11 +155,17 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKLoginKit
     - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
     - FirebaseAuth
     - FirebaseAuthInterop
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
+    - FirebaseInAppMessaging
+    - FirebaseInAppMessagingDisplay
+    - FirebaseInstanceID
+    - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleSignIn
@@ -116,12 +173,24 @@ SPEC REPOS:
     - GTMAppAuth
     - GTMSessionFetcher
     - nanopb
+    - SinchRTC
     - SwiftyJSON
     - TinyConstraints
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  APESuperHUD:
+    :git: https://github.com/apegroup/APESuperHUD.git
+
+CHECKOUT OPTIONS:
+  APESuperHUD:
+    :commit: 7a94bfdcd78cb0b1795ce5e933cf911eac54ec89
+    :git: https://github.com/apegroup/APESuperHUD.git
 
 SPEC CHECKSUMS:
   Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   AMSlideMenu: 8571937703d2b8e187b22c1416be4cafc3532a11
+  APESuperHUD: 18ce2f9f114dd38d8fef5a6831e71ae9634cfc26
   AppAuth: bce82c76043657c99d91e7882e8a9e1a93650cd4
   CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
   DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
@@ -129,11 +198,17 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 0d2d450fe9447e204fa6e912e0df76dd36693699
   FBSDKLoginKit: 4127e8260b96e0e4cc8ba0c10c95ee63941aa24a
   Firebase: 2d750c54cda57d5a6ae31212cfe5cc813c6be7e4
+  FirebaseAnalytics: 5d9ccbf46ed25d3ec9304d263f85bddf1e93e2d2
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
   FirebaseAuth: e7f86c2dfc57281cd01f7da5e4b40e01e4510a4a
   FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
   FirebaseCore: 8b2765c445d40db7137989b7146a3aa3f91b5529
   FirebaseCoreDiagnostics: be4f7a09d02ab305f18de59a470412caddb64c2a
   FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
+  FirebaseInAppMessaging: acbfa8c5582b11ccc0366511d29ef1d288f302fc
+  FirebaseInAppMessagingDisplay: 60a65c8277f17675a8a5b92e9a97cd914b45d4ff
+  FirebaseInstanceID: 550df9be1f99f751d8fcde3ac342a1e21a0e6c42
+  GoogleAppMeasurement: 0ae90be1cc4dad40f4a27fc767ef59fa032ec87b
   GoogleDataTransport: c8617c00e4f3eb9418e42ac0e8ac5241a9d555dd
   GoogleDataTransportCCTSupport: 9f352523e8785a71f6754f51eeff09f49ec19268
   GoogleSignIn: a62edd0516721d2a3db1259a5681b91f9b41c06a
@@ -141,9 +216,11 @@ SPEC CHECKSUMS:
   GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SinchRTC: ed769fd3fec5940e6b75ed310e93796d62149810
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
 
-PODFILE CHECKSUM: 27cd789956604ef36f58cda3cf4459a1a1a6e675
+PODFILE CHECKSUM: f0102603cad9bfe9c2f981b9a48b75100f01b48b
 
 COCOAPODS: 1.8.0
