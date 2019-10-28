@@ -19,8 +19,11 @@ target 'Takecare2uV1' do
   pod 'Firebase'
   pod 'Firebase/InAppMessagingDisplay'
   pod 'SinchRTC'
-  pod 'APESuperHUD', :git => 'https://github.com/apegroup/APESuperHUD.git'
   pod 'Toast-Swift'
+  pod 'LUExpandableTableView'
+  pod 'APESuperHUD', :git => 'https://github.com/apegroup/APESuperHUD.git'
+  pod 'DropDown'
+
   # add the Firebase pod for Google Analytics
   pod 'Firebase/Analytics'
   # add pods for any other desired Firebase products

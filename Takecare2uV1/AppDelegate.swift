@@ -51,8 +51,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate {
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         let handled = ApplicationDelegate.shared.application(app, open: url, sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,annotation: options[UIApplication.OpenURLOptionsKey.annotation])
-        return handled
-        return GIDSignIn.sharedInstance().handle(url)
+         
+        return GIDSignIn.sharedInstance().handle(url); handled
     }
     
     func applicationWillResignActive(_ application: UIApplication) {

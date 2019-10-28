@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>559730773673-8rhotuo60rehu1vhcas9m6ndo2ikcnk8.apps.googleusercontent.com</string>
+	<string>559730773673-spq9jncmp57qeda5jledg19vvc4t8nqu.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.559730773673-8rhotuo60rehu1vhcas9m6ndo2ikcnk8</string>
+	<string>com.googleusercontent.apps.559730773673-spq9jncmp57qeda5jledg19vvc4t8nqu</string>
 	<key>ANDROID_CLIENT_ID</key>
 	<string>559730773673-oov9nu1vj8m1tsuflikcrcbv423d2q7m.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
@@ -15,23 +15,23 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>takecare2u.Takecare2uV1</string>
+	<string>com.takecare2u.Takecare2uV1</string>
 	<key>PROJECT_ID</key>
 	<string>take-care-2u-1566101341128</string>
 	<key>STORAGE_BUCKET</key>
 	<string>take-care-2u-1566101341128.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:559730773673:ios:8925317fece21497a463b8</string>
+	<string>1:559730773673:ios:3d966d2278ee80b8a463b8</string>
 	<key>DATABASE_URL</key>
 	<string>https://take-care-2u-1566101341128.firebaseio.com</string>
 </dict>
